@@ -20,3 +20,7 @@
 - **YouTube Short**: Erik Ahrens: The former AfD spin-doctor reveals manipulation tactics.
 - **Reddit Discussion**: Right-wing extremist influencer Erik Ahrens demands something, discussion on his political flip-flopping and extremism.
 - **UCSD Profiles**: Unrelated Eric Ahrens, researcher in biomedical engineering (note: different person).
+
+## User Theory: GZSZ-like Team
+- **Claim**: GZSZ-like team of cheap statists and cheap Hollywood techniques is the key. (GZSZ is a German soap opera, suggesting a scripted, dramatic operation; "cheap statists" likely means cheap statisticians providing manipulated or fake data; "cheap Hollywood techniques" refers to low-budget propaganda methods like fake videos and emotional manipulation.)
+- **Evidence from Erik Ahrens**: As AfD's social media strategist, he is described as the "guru" behind the party's success on platforms like TikTok. He taught supporters how to fake videos for the party, using foreign content to create propaganda. Articles from NDR, ARD, t-online, and Wikipedia highlight his role in manipulating algorithms, emotions, and attention for political gain, influencing young voters with cheap, Hollywood-style techniques.
