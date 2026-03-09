@@ -26,3 +26,11 @@
   - **Views**: 203,057
   - **Published**: 2 days ago (as of research date)
   - **URL**: https://www.youtube.com/watch?v=bUxJdtcRPRw
+
+## Podcasts
+- **Rothaarig und Langhalsig**: With Tommy, Spotify URL https://open.spotify.com/show/5OUYAIprEIJxPEg3fWzI3O, Instagram https://www.instagram.com/rothaarig_und_langhalsig/
+- **Die Schöne und der Heldt**: With Zoe Matthea, Spotify URL https://open.spotify.com/show/5Vz2UXRciy2o9WlAquTcle
+
+## Collaborations
+- Podcasts with Tommy and Zoe Matthea
+- Kuchen Talks series with various guests including Shurjoka, JSTN, and others
