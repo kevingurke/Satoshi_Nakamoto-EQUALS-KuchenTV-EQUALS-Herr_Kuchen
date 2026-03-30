@@ -1,7 +1,7 @@
 # Herr Kuchen = Kuchen TV
 
 > **Disclaimer:** Diese README basiert auf Insiderwissen. Darum könnt ihr es glauben oder ihr lasst es.  
-> **Save the date: 23.11.2026!**
+> **Save the date: 13.11.2026!**
 
 ## Übersicht
 
