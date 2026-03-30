@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satoshi Nakamoto, KuchenTV & Herr Kuchen - Informationsseite</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Source Sans Pro", "Segoe UI", Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(180deg, #003366 0%, #002244 100%);
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 4px solid #00529B;
+        }
+        
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .header-logo img {
+            height: 50px;
+        }
+        
+        .header-logo span {
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-nav {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .header-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .header-nav a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #00529B 0%, #003366 100%);
+            color: #fff;
+            padding: 60px 30px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .section-title {
+            color: #003366;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #00529B;
+            display: inline-block;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #00529B 0%, #003366 100%);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .card-header h3 {
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+        }
+        
+        .card-header .subtitle {
+            font-size: 0.9rem;
+            opacity: 0.85;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .card-body p {
+            margin-bottom: 15px;
+        }
+        
+        .card-body ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .card-body ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .card-body ul li:last-child {
+            border-bottom: none;
+        }
+        
+        .card-body ul li strong {
+            color: #00529B;
+        }
+        
+        .link-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .link-item {
+            background: #f0f4f8;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #00529B;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+            border-left: 3px solid #00529B;
+        }
+        
+        .link-item:hover {
+            background: #e0e8f0;
+        }
+        
+        .info-box {
+            background: #e8f4f8;
+            border-left: 4px solid #00529B;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .info-box h4 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background: #003366;
+            color: #fff;
+            padding: 40px 30px;
+            margin-top: 60px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .footer-section h4 {
+            color: #fff;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #00529B;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: #a8c5e2;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: #fff;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: #a8c5e2;
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .header-nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <span>📋 Informationsportal</span>
+        </div>
+        <nav class="header-nav">
+            <a href="#satoshi">Satoshi Nakamoto</a>
+            <a href="#kuchentv">KuchenTV</a>
+            <a href="#herrkuchen">Herr Kuchen</a>
+            <a href="#links">Weitere Links</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Drei Persönlichkeiten der digitalen Welt</h1>
+        <p>Umfassende Informationen über Satoshi Nakamoto, KuchenTV und Herr Kuchen - drei bedeutende Figuren aus Kryptowährung und deutscher YouTube-Szene</p>
+    </section>
+    
+    <div class="container">
+        <section id="satoshi">
+            <h2 class="section-title">Satoshi Nakamoto</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Der Schöpfer von Bitcoin</h3>
+                    <span class="subtitle">Pseudonym · Kryptowährungspionier · Unbekannte Identität</span>
+                </div>
+                <div class="card-body">
+                    <p>Satoshi Nakamoto ist das Pseudonym der Person oder Personen, die Bitcoin entwickelt und das Konzept der Kryptowährung eingeführt haben. Die wahre Identität ist bis heute unbekannt.</p>
+                    
+                    <div class="info-box">
+                        <h4>Wichtige Fakten</h4>
+                        <ul>
+                            <li><strong>Veröffentlichung:</strong> Bitcoin Whitepaper im Oktober 2008</li>
+                            <li><strong>Erste Implementierung:</strong> Januar 2009</li>
+                            <li><strong>Geschätztes Vermögen:</strong> ~1 Million BTC (ca. 45 Mrd. USD)</li>
+                            <li><strong>Letzte Kommunikation:</strong> 2011</li>
+                        </ul>
+                    </div>
+                    
+                    <p>Im Oktober 2008 veröffentlichte Satoshi Nakamoto das bahnbrechende Paper "Bitcoin: A Peer-to-Peer Electronic Cash System" und löste damit eine Revolution im Finanzwesen aus. Das dezentralisierte Geldystem ohne Zwischenhändler war revolutionär.</p>
+                    
+                    <h4 style="color: #003366; margin: 20px 0 10px;">Mögliche Identitäten</h4>
+                    <ul>
+                        <li><strong>Dorian Nakamoto:</strong> Japanisch-Amerikaner, fälschlicherweise von Newsweek identifiziert (2014)</li>
+                        <li><strong>Nick Szabo:</strong> Erfinder von "Bit Gold", Vorläufer von Bitcoin</li>
+                        <li><strong>Hal Finney:</strong> Früher Bitcoin-Entwickler, verstarb 2014</li>
+                        <li><strong>Craig Wright:</strong> Australischer Akademiker, behauptet Satoshi zu sein</li>
+                    </ul>
+                    
+                    <div class="link-list">
+                        <a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto" target="_blank" class="link-item">Wikipedia - Satoshi Nakamoto</a>
+                        <a href="https://www.britannica.com/biography/Satoshi-Nakamoto" target="_blank" class="link-item">Britannica</a>
+                        <a href="https://www.investopedia.com/terms/s/satoshi-nakamoto.asp" target="_blank" class="link-item">Investopedia</a>
+                        <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" class="link-item">Originales Bitcoin Whitepaper</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kuchentv" style="margin-top: 50px;">
+            <h2 class="section-title">KuchenTV</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Tim Heldt</h3>
+                    <span class="subtitle">Deutscher YouTuber & Meinungsblogger</span>
+                </div>
+                <div class="card-body">
+                    <p>KuchenTV ist der Kanal des deutschen YouTubers und Meinungsbloggers Tim Heldt. Mit über 1,16 Millionen Abonnenten zählt er zu den bekanntesten Commentary-YouTubern im deutschsprachigen Raum.</p>
+                    
+                    <div class="info-box">
+                        <h4>Persönliche Daten</h4>
+                        <ul>
+                            <li><strong>Name:</strong> Tim Heldt (bürgerlich)</li>
+                            <li><strong>Geburtsdatum:</strong> 19. April 1995</li>
+                            <li><strong>Geburtsort:</strong> Salzgitter, Niedersachsen</li>
+                            <li><strong>Wohnort:</strong> Braunschweig, Niedersachsen</li>
+                            <li><strong>YouTube-Abonnenten:</strong> Über 1,16 Millionen</li>
+                        </ul>
+                    </div>
+                    
+                    <p>Der Kanal konzentriert sich hauptsächlich auf Commentary- und Reaction-Videos, in denen KuchenTV aktuelle Themen, Internet-Trends und Online-Kontroversen kommentiert. Dabei arbeitet er oft mit anderen deutschen YouTubern zusammen.</p>
+                    
+                    <h4 style="color: #003366; margin: 20px 0 10px;">Weitere Kanäle</h4>
+                    <ul>
+                        <li><strong>KuchenTV Uncut:</strong> Zweiter Kanal mit zusätzlichen Inhalten (3.160+ Videos)</li>
+                    </ul>
+                    
+                    <h4 style="color: #003366; margin: 20px 0 10px;">Bekannte Kontroversen</h4>
+                    <ul>
+                        <li><strong>Dezember 2023:</strong> Twitch-Ban nach Konflikt mit Shurjoka</li>
+                        <li><strong>2021:</strong> Öffentliche Auseinandersetzungen mit anderen YouTubern</li>
+                        <li><strong>2025:</strong> Geldstrafe wegen mutmaßlicher Nazi-Phrase (16.000 €)</li>
+                    </ul>
+                    
+                    <div class="link-list">
+                        <a href="https://www.youtube.com/channel/UCr78AIw8O_HGs2jMUAGEp_g" target="_blank" class="link-item">YouTube Kanal</a>
+                        <a href="https://www.twitch.tv/kuchentv" target="_blank" class="link-item">Twitch Kanal</a>
+                        <a href="https://youtube.fandom.com/de/wiki/KuchenTV" target="_blank" class="link-item">YouTube Wiki (deutsch)</a>
+                        <a href="https://www.networthspot.com/kuchentv/net-worth/" target="_blank" class="link-item">Net Worth</a>
+                        <a href="https://streamscharts.com/channels/kuchentv" target="_blank" class="link-item">Stream Statistiken</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="herrkuchen" style="margin-top: 50px;">
+            <h2 class="section-title">Herr Kuchen</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Die Persona hinter KuchenTV</h3>
+                    <span class="subtitle">Zweite Identität · Online-Persönlichkeit</span>
+                </div>
+                <div class="card-body">
+                    <p>Herr Kuchen ist eine weitere Persona/Identität im Umfeld von KuchenTV (Tim Heldt). Es handelt sich um eine alternative Online-Präsenz, die möglicherweise für andere Inhalte oder Formate genutzt wird.</p>
+                    
+                    <div class="info-box">
+                        <h4>Was bekannt ist</h4>
+                        <ul>
+                            <li><strong>Verbunden mit:</strong> KuchenTV (Tim Heldt)</li>
+                            <li><strong>Plattform:</strong> YouTube / Twitch</li>
+                            <li><strong>Art:</strong> Alternative Persona oder Kanal</li>
+                        </ul>
+                    </div>
+                    
+                    <p>Die genaue Aufteilung zwischen KuchenTV und Herr Kuchen ist nicht vollständig öffentlich dokumentiert. Es scheint sich um eine weitere Marke oder Identität zu handeln, die im Umfeld des deutschen YouTubers verwendet wird.</p>
+                    
+                    <div class="link-list">
+                        <a href="https://www.youtube.com/results?search_query=Herr+Kuchen+YouTube" target="_blank" class="link-item">YouTube Suche</a>
+                        <a href="https://www.twitch.tv/kuchentv" target="_blank" class="link-item">Twitch (KuchenTV)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="links" style="margin-top: 50px;">
+            <h2 class="section-title">Weitere externe Links</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bitcoin & Kryptowährung</h3>
+                        <span class="subtitle">Externe Ressourcen</span>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="https://bitcoin.org/de/" target="_blank" style="color: #00529B;">Bitcoin.org (offizielle Seite)</a></li>
+                            <li><a href="https://blockchain.com" target="_blank" style="color: #00529B;">Blockchain.com</a></li>
+                            <li><a href="https://coinmarketcap.com" target="_blank" style="color: #00529B;">CoinMarketCap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Deutsche YouTuber Szene</h3>
+                        <span class="subtitle">Verwandte Creator</span>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="https://www.youtube.com/results?search_query=deutsche+YouTuber+ commentary" target="_blank" style="color: #00529B;">Deutsche Commentary YouTuber</a></li>
+                            <li><a href="https://twitchtracker.com" target="_blank" style="color: #00529B;">Twitch Tracker</a></li>
+                            <li><a href="https://streamscharts.com" target="_blank" style="color: #00529B;">Stream Charts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Allgemeine Recherche</h3>
+                        <span class="subtitle">Suchmaschinen</span>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="https://google.com" target="_blank" style="color: #00529B;">Google</a></li>
+                            <li><a href="https://wikipedia.org" target="_blank" style="color: #00529B;">Wikipedia</a></li>
+                            <li><a href="https://duckduckgo.com" target="_blank" style="color: #00529B;">DuckDuckGo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Satoshi Nakamoto</h4>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto" target="_blank">Wikipedia</a></li>
+                    <li><a href="https://www.britannica.com/biography/Satoshi-Nakamoto" target="_blank">Britannica</a></li>
+                    <li><a href="https://bitcoin.org/bitcoin.pdf" target="_blank">Bitcoin Whitepaper</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>KuchenTV</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCr78AIw8O_HGs2jMUAGEp_g" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.twitch.tv/kuchentv" target="_blank">Twitch</a></li>
+                    <li><a href="https://youtube.fandom.com/de/wiki/KuchenTV" target="_blank">YouTube Wiki</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Informationsportal - Alle Angaben ohne Gewähr</p>
+        </div>
+    </footer>
+</body>
+</html>
