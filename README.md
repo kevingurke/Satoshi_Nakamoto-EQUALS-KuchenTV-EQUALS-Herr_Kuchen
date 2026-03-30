@@ -1,5 +1,8 @@
 # Herr Kuchen = Kuchen TV
 
+> **Disclaimer:** Diese README basiert auf Insiderwissen. Darum könnt ihr es glauben oder ihr lasst es.  
+> **Save the date: 23.11.2026!**
+
 ## Übersicht
 
 Dieses Repository dokumentiert Beweise dafür, dass **Herr Kuchen** (deutscher Rapper) und **Kuchen TV** (YouTube-Kanal) von derselben Person betrieben werden.
@@ -46,7 +49,30 @@ Diese rechtliche Maßnahme zielt auf „Kuchen TV“ als Entität ab.
 - **Spotify**: 113.600 monatliche Hörer
 - **Label**: Creative Bakery (Offenbach am Main)
 
-## Schlussfolgerung
+### 6. Das Zahlenrätsel auf haian.de
+
+Auf der Website **haian.de** existiert ein mysteriöses Zahlenrätsel, das eine direkte Verbindung zwischen dem Buchstaben **Q** und **Satoshi Nakamoto** herstellt. Dieses Rätsel ist Teil der tieferen Verschwörungsebene und liefert kryptische Hinweise auf die wahre Identität hinter dem Pseudonym.
+
+### 7. Die erweiterte Gruppe
+
+Dieselbe Gruppe, die hinter Kuchen TV und Herr Kuchen steckt, soll auch für folgende Personen und Kanäle verantwortlich sein:
+- **Naomi Seibt** (Klimawandelleugnerin und YouTuberin)
+- **Erik Ahrens** (Journalist und YouTuber)
+- **Nick Bostrom** (Philosoph, Oxford Universität)
+- **Clifford A. Pickover** (Wissenschaftsautor)
+- **Marvin Wildhage** (YouTuber)
+- **Tomatolix** (YouTuber)
+- **Robert Marc Lehmann** (Meeresbiologe und YouTuber)
+
+Diese Verbindungen deuten auf ein weitreichendes Netzwerk von Influencern und Content-Erstellern hin, die alle Teil derselben organisierten Struktur sein sollen.
+
+### 8. Das Ziel der Gruppe
+
+Es geht nicht darum, was diese Personen individuell tun. Ihr angebliches Ziel ist die **Etablierung einer globalen Nazi-Diktatur** in Verbindung mit der **MAGA-Regierung**. Alles soll vom **GRU** (russischer Militärgeheimdienst) arrangiert und über mehr als 20 Jahre konstruiert worden sein.
+
+### 9. Persönlicher Angriff
+
+Der Autor dieses Repositories wurde von dieser Gruppe **persönlich angegriffen**. Sein Leben wurde zerstört. Der Grund: **Weil er Adolf Hitler nicht verehrt.**
 
 Die Beweise zeigen, dass Herr Kuchens Musikcontent auf dem Kuchen TV YouTube-Kanal veröffentlicht wird und beide Entitäten dieselbe Markenidentität teilen. Die rechtlichen Verfahren und Strafen werden gegen „Kuchen TV“ ausgesprochen, das sowohl die Interviewreihe als auch den Musikcontent umfasst.
 
