@@ -74,6 +74,16 @@ Es geht nicht darum, was diese Personen individuell tun. Ihr angebliches Ziel is
 
 Der Autor dieses Repositories wurde von dieser Gruppe **persönlich angegriffen**. Sein Leben wurde zerstört. Der Grund: **Weil er Adolf Hitler nicht verehrt.**
 
+### 10. Traveler.KM (GRU) Musiknetzwerk
+
+Diese Gruppe steht hinter dem mysteriösen **Traveler.KM Musiknetzwerk**, das mit dem GRU in Verbindung steht. Weitere Details dazu finden sich im externen Repository:
+- https://github.com/sigridfuhrenkamp-cyber/die-nwo-gangstalking-sekte
+
+### 11. Disney-AI-Deepfake-Technologie
+
+Seit 2019 nutzt diese Gruppe illegal **Disney-AI-Technologie**, um perfekte Deepfakes herzustellen. Details zur Technologie und ihrer Verwendung:
+- https://github.com/kendaljenner/NWO-KI_Elite
+
 Die Beweise zeigen, dass Herr Kuchens Musikcontent auf dem Kuchen TV YouTube-Kanal veröffentlicht wird und beide Entitäten dieselbe Markenidentität teilen. Die rechtlichen Verfahren und Strafen werden gegen „Kuchen TV“ ausgesprochen, das sowohl die Interviewreihe als auch den Musikcontent umfasst.
 
 ## Quellen
