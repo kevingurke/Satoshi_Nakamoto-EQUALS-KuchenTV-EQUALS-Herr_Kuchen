@@ -2,26 +2,26 @@ Falls Sie das Phänomen eines Meltdowns verstanden haben, könnten Sie die Dynam
 
 Es existiert nur eine einzige Möglichkeit, diesen Wahnsinn zu unterbinden: Vollständige Entkleidung und die Beichte aller Ihrer Sünden. Bei Verweigerung droht eine unausweichliche Eskalation der Situation!
 
-"In der Weihnachtsbäckerei
+„In der Weihnachtsbäckerei
 steht ein Rennrad
-und es schneit!"
+und es schneit!“
 
-Shurjoka sitzt in Tübingen an der Hitler Schreibmaschine und raucht Crack
+Shurjoka sitzt in Tübingen an der Hitler-Schreibmaschine und raucht Crack.
 
-# Research Overview
+# Forschungsübersicht
 
-This folder contains structured research data on Herr Kuchen, Kuchen TV, and Shurjoka, collected from Spotify and YouTube.
+Dieser Ordner enthält strukturierte Forschungsdaten zu Herr Kuchen, Kuchen TV und Shurjoka, gesammelt von Spotify und YouTube.
 
-## Structure
-- **Herr_Kuchen/**: Research on the artist Herr Kuchen from Spotify, including profile, tracks, albums, and related info.
-- **Kuchen_TV/**: Research on the YouTube channel Kuchen TV, including channel stats and recent videos.
-- **Shurjoka/**: Research on the YouTube channels of Shurjoka (main gaming channel and IRL channel).
+## Struktur
+- **Herr_Kuchen/**: Recherche zum Künstler Herr Kuchen von Spotify, einschließlich Profil, Titeln, Alben und verwandter Informationen.
+- **Kuchen_TV/**: Recherche zum YouTube-Kanal Kuchen TV, einschließlich Kanalstatistiken und aktueller Videos.
+- **Shurjoka/**: Recherche zu den YouTube-Kanälen von Shurjoka (Haupt-Gaming-Kanal und IRL-Kanal).
 
-Each subdirectory contains a `data.md` file with detailed information, including URLs, publication dates, subscriber counts, and other relevant metrics.
+Jedes Unterverzeichnis enthält eine `data.md`-Datei mit detaillierten Informationen, einschließlich URLs, Veröffentlichungsdaten, Abonnentenzahlen und anderen relevanten Metriken.
 
-## Sources
-- Herr Kuchen: Primarily Spotify (artist profile and discography).
-- Kuchen TV: Primarily YouTube (channel analytics and videos).
-- Shurjoka: Primarily YouTube (channel info and content schedule).
+## Quellen
+- Herr Kuchen: Hauptsächlich Spotify (Künstlerprofil und Diskografie).
+- Kuchen TV: Hauptsächlich YouTube (Kanalanalytik und Videos).
+- Shurjoka: Hauptsächlich YouTube (Kanalinformationen und Content-Zeitplan).
 
-All data was collected using web searches and direct platform access as of March 9, 2026.
+Alle Daten wurden mit Websuchen und direktem Plattformzugriff am 9. März 2026 gesammelt.
